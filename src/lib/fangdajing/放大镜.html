@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Magnifier2</title>
+		<link rel="stylesheet" type="text/css" href="css/cs.css" />
+	</head>
+
+	<body>
+
+		<div id="MagnifierWrap2">
+			<div class="MagnifierMain">
+				<!--<img class="MagTargetImg" src="img/userimg.jpg" data-src="img/userimg-big.jpg">-->
+			</div>
+			<span class="spe_leftBtn">&lt;</span>
+			<span class="spe_rightBtn">&gt;</span>
+			<div class="spec-items">
+				<ul>
+					<!--<li class="on"><img src="img/userimg.jpg" data-lsrc="img/userimg.jpg" data-maxSrc="img/userimg-big.jpg"></li>
+					<li><img src="img/userimg2.jpg" data-lsrc="img/userimg2.jpg" data-maxSrc="img/userimg2-big.jpg"></li>
+					<li><img src="img/userimg3.jpg" data-lsrc="img/userimg3.jpg" data-maxSrc="img/userimg3-big.jpg"></li>
+					<li><img src="img/userimg4.jpg" data-lsrc="img/userimg4.jpg" data-maxSrc="img/userimg4-big.jpg"></li>
+					<li><img src="img/userimg.jpg" data-lsrc="img/userimg.jpg" data-maxSrc="img/userimg-big.jpg"></li>
+					<li><img src="img/userimg4.jpg" data-lsrc="img/userimg4.jpg" data-maxSrc="img/userimg4-big.jpg"></li>-->
+
+				</ul>
+			</div>
+		</div>
+		<script src="js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/js.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+		$(function(){
+			
+			//数组假数据，换成你们数据库查询的数据即可
+			var arrSmall = ['img/userimg.jpg', 'img/userimg2.jpg', 'img/userimg3.jpg', 'img/userimg4.jpg', 'img/userimg.jpg', 'img/userimg2.jpg'];
+			var arrBig = ['img/userimg-big.jpg', 'img/userimg2-big.jpg', 'img/userimg3-big.jpg', 'img/userimg4-big.jpg', 'img/userimg-big.jpg', 'img/userimg2-big.jpg'];
+			
+			//渲染数据	
+			var html='';
+			for(var i=0;i<arrSmall.length;i++){
+				html+=`<li><img src="${arrSmall[i]}" data-lsrc="${arrSmall[i]}" data-maxSrc="${arrBig[i]}"></li>`;
+			}
+			console.log(html);
+			$('#MagnifierWrap2 .spec-items ul').html(html);//生成节点
+			$('#MagnifierWrap2 .spec-items ul li').eq(0).addClass('on');//第一个li样式为on
+			
+			//第一个大图的渲染
+			var str=`<img class="MagTargetImg" src="${arrSmall[0]}" data-src="${arrBig[0]}">`;
+			$('#MagnifierWrap2 .MagnifierMain').html(str);
+			
+			//调用放大镜插件：传最大盒子id即可
+			MagnifierF("MagnifierWrap2");
+		});
+			
+		</script>
+	</body>
+
+</html>

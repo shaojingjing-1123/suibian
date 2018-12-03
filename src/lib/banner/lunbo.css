@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#banner{
+    overflow: hidden;
+    position:relative;
+    left:0;
+    margin:0 auto;
+}
+img{display: block;}
+.horizontal{
+    height: 100%;
+    position: absolute;
+}
+.horizontal li{
+     float: left;
+     list-style: none;
+}
+.isPage{
+    position:absolute;
+    right:150px;
+    bottom:50px;
+     }
+.isPage span{
+
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 20px;
+    color:#fff;
+    background-color: #000;
+    opacity:0.5;
+    cursor:pointer;
+}
+.active{
+      background-color: orange!important;
+}
+
+#banner>span{
+    width: 30px;
+    height: 50px;
+    display:block;
+    background-color: #000;
+    color:#fff;
+    opacity:0.5;
+    position:absolute;    
+    text-align:center;
+    line-height: 50px;
+    border-radius: 10px;  top:33%;
+}
+
+#banner>span:hover{
+    background-color: orange;
+}
+.fade{
+    height: 100%;
+    width: 100%;
+}
+.fade img{
+    position:absolute;
+    left:-260px;
+}
+.btnleft{
+    cursor:pointer;
+}
+.btnright{
+    cursor:pointer;
+}

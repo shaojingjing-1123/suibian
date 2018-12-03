@@ -1,0 +1,509 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#box {
+  width: 100%;
+  height: 689px;
+  border-top: 1px solid #B6B4B6; }
+  #box #head {
+    border-bottom: 1px solid #e8e8ea;
+    height: 100px;
+    background: #fff; }
+    #box #head .headtop {
+      width: 1000px;
+      height: 100px;
+      margin: 0 auto;
+      background: url(../../img/zhuceyetu1.png) no-repeat 459px 0;
+      padding-top: 20px; }
+      #box #head .headtop a {
+        display: block;
+        width: 210px;
+        height: 65px; }
+  #box #zhongjian {
+    height: 520px;
+    width: 100%;
+    background: url(../../img/zhuceyequantu.png) no-repeat; }
+    #box #zhongjian #zhongjiancenter {
+      width: 1000px;
+      height: 472px;
+      margin: 0 auto;
+      padding-top: 48px;
+      position: relative; }
+      #box #zhongjian #zhongjiancenter #kongde {
+        width: 600px;
+        height: 390px;
+        float: left; }
+        #box #zhongjian #zhongjiancenter #kongde a {
+          display: block;
+          width: 600px;
+          height: 380px; }
+      #box #zhongjian #zhongjiancenter #zhuce {
+        width: 350px;
+        height: 388px;
+        border: 1px solid #EAEAEA;
+        float: left; }
+        #box #zhongjian #zhongjiancenter #zhuce .zhucetop {
+          width: 270px;
+          height: 52px;
+          padding-left: 40px;
+          padding-right: 40px;
+          border-bottom: 1px solid #DDDDDD;
+          background: #F8F8F8; }
+          #box #zhongjian #zhongjiancenter #zhuce .zhucetop h4 {
+            height: 52px;
+            width: 70px;
+            color: #E31436;
+            line-height: 52px;
+            font-size: 16px;
+            float: left; }
+          #box #zhongjian #zhongjiancenter #zhuce .zhucetop p {
+            display: block;
+            float: left;
+            width: 106px;
+            height: 52px;
+            font-size: 12px;
+            line-height: 52px;
+            color: #000;
+            margin-left: 94px; }
+            #box #zhongjian #zhongjiancenter #zhuce .zhucetop p a {
+              color: #51B8F1;
+              font-size: 12px;
+              text-decoration: none; }
+        #box #zhongjian #zhongjiancenter #zhuce .zhucebottom {
+          width: 270px;
+          height: 296px;
+          padding-left: 40px;
+          padding-right: 40px;
+          padding-top: 40px;
+          background: #FFFFFF; }
+          #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .u-input {
+            width: 268px;
+            height: 34px;
+            border: 1px solid #D5D5D5;
+            margin-bottom: 16px; }
+            #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .u-input .u-logo {
+              width: 12px;
+              height: 18px;
+              background: url(../../img/zhuceyetu6.png) no-repeat 50% 50%;
+              padding: 8px 12px;
+              float: left; }
+            #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .u-input .shoujihao {
+              width: 198px;
+              height: 34px;
+              font-size: 18px;
+              line-height: 34px;
+              color: #CCCCCC;
+              border: 0 none; }
+            #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .u-input .shoujihao:focus {
+              outline: none !important; }
+          #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .y-input {
+            width: 268px;
+            height: 28px;
+            background: #EEEEEE;
+            margin-bottom: 16px; }
+            #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .y-input .yval {
+              display: inline-block;
+              width: 150px;
+              height: 26px;
+              border: 1px solid #D5D5D5;
+              font-size: 14px;
+              color: #A8A8A8;
+              padding-left: 20px;
+              float: left; }
+            #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .y-input .ybtn {
+              width: 95px;
+              height: 27px;
+              border: 1px solid #D5D5D5;
+              border-left: none;
+              float: left;
+              cursor: pointer; }
+          #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .s-input {
+            width: 268px;
+            height: 34px;
+            border: 1px solid #D5D5D5;
+            margin-bottom: 16px; }
+            #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .s-input .sval {
+              width: 248px;
+              height: 34px;
+              font-size: 14px;
+              color: #CCCCCC;
+              border: 0 none;
+              padding-left: 20px; }
+            #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .s-input .sval:focus {
+              outline: none !important; }
+          #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .m-input {
+            width: 268px;
+            height: 34px;
+            border: 1px solid #D5D5D5; }
+            #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .m-input div {
+              width: 18px;
+              height: 18px;
+              padding: 8px 12px;
+              float: left; }
+            #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .m-input .password {
+              width: 210px;
+              height: 34px;
+              font-size: 14px;
+              line-height: 34px;
+              border: 0 none; }
+            #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .m-input .password:focus {
+              outline: none !important; }
+          #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .tishixinxi {
+            height: 17px;
+            margin-top: 6px;
+            font-size: 12px;
+            margin-bottom: 7px;
+            color: red; }
+          #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .z-input {
+            height: 36px;
+            width: 270px; }
+            #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .z-input .zbtn {
+              width: 270px;
+              height: 36px;
+              background: #E31436;
+              color: #fff;
+              border: 0 none;
+              cursor: pointer; }
+            #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .z-input .zbtn:focus {
+              outline: none !important; }
+          #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .f-input {
+            width: 270px;
+            height: 28px;
+            padding-top: 12px; }
+            #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .f-input p {
+              display: inline-block;
+              width: 220px;
+              height: 16px;
+              font-size: 12px;
+              line-height: 16px;
+              color: #B5B5B5; }
+              #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .f-input p a {
+                font-size: 12px;
+                text-decoration: none;
+                color: #B5B5B5; }
+              #box #zhongjian #zhongjiancenter #zhuce .zhucebottom .f-input p a:hover {
+                color: #949494; }
+      #box #zhongjian #zhongjiancenter #denglu {
+        width: 350px;
+        height: 324px;
+        border: 1px solid #EAEAEA;
+        float: left;
+        position: absolute;
+        left: 600px;
+        top: 48px;
+        display: none; }
+        #box #zhongjian #zhongjiancenter #denglu .denglutop {
+          width: 270px;
+          height: 52px;
+          padding-left: 40px;
+          padding-right: 40px;
+          border-bottom: 1px solid #DDDDDD;
+          background: #F8F8F8; }
+          #box #zhongjian #zhongjiancenter #denglu .denglutop .shoujidenglu {
+            display: block;
+            height: 52px;
+            width: 127px;
+            color: #E31436;
+            font-size: 18px;
+            line-height: 52px;
+            padding-left: 8px;
+            float: left;
+            cursor: pointer; }
+          #box #zhongjian #zhongjiancenter #denglu .denglutop .youxiangdenlu {
+            display: block;
+            float: left;
+            width: 80px;
+            height: 52px;
+            border-left: 1px solid #DDDDDD;
+            padding-left: 54px;
+            color: #000;
+            font-size: 18px;
+            line-height: 52px;
+            cursor: pointer; }
+          #box #zhongjian #zhongjiancenter #denglu .denglutop .shoujidenglu:hover {
+            color: #E31436; }
+          #box #zhongjian #zhongjiancenter #denglu .denglutop .youxiangdenlu:hover {
+            color: #E31436; }
+        #box #zhongjian #zhongjiancenter #denglu .denglubottom1 {
+          width: 270px;
+          height: 210px;
+          padding: 0 40px;
+          background: #fff;
+          padding-top: 20px;
+          border-bottom: 1px solid #DDDDDD; }
+          #box #zhongjian #zhongjiancenter #denglu .denglubottom1 .dshouji {
+            width: 270px;
+            height: 34px;
+            border: 1px solid #D5D5D5;
+            margin-bottom: 16px; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom1 .dshouji div {
+              width: 18px;
+              height: 14px;
+              padding: 10px 12px;
+              float: left; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom1 .dshouji .dshoujihao {
+              width: 200px;
+              height: 34px;
+              border: 0 none;
+              font-size: 12px;
+              line-height: 34px;
+              color: #CCCCCC; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom1 .dshouji .dshoujihao:focus {
+              outline: none !important; }
+          #box #zhongjian #zhongjiancenter #denglu .denglubottom1 .dsmima {
+            width: 270px;
+            height: 34px;
+            border: 1px solid #D5D5D5; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom1 .dsmima div {
+              width: 18px;
+              height: 18px;
+              padding: 8px 12px;
+              float: left; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom1 .dsmima .dpass {
+              width: 200px;
+              height: 34px;
+              border: 0 none;
+              font-size: 12px;
+              line-height: 34px;
+              color: #CCCCCC; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom1 .dsmima .dpass:focus {
+              outline: none !important; }
+          #box #zhongjian #zhongjiancenter #denglu .denglubottom1 .dtishixinxi {
+            height: 17px;
+            color: red;
+            margin-bottom: 6px;
+            margin-bottom: 7px; }
+          #box #zhongjian #zhongjiancenter #denglu .denglubottom1 .dbtn {
+            width: 270px;
+            height: 36px;
+            background: #E31436;
+            margin-bottom: 10px; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom1 .dbtn .d_btn {
+              width: 270px;
+              height: 36px;
+              cursor: pointer;
+              background: #E31436;
+              border: 0 none;
+              font-size: 12px;
+              color: #fff;
+              line-height: 36px; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom1 .dbtn .d_btn:focus {
+              outline: none !important; }
+          #box #zhongjian #zhongjiancenter #denglu .denglubottom1 .miandeng {
+            width: 270px;
+            height: 16px; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom1 .miandeng span {
+              display: inline-block;
+              height: 16px;
+              width: 65px;
+              font-size: 12px;
+              line-height: 16px;
+              color: #999999;
+              margin-left: 10px; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom1 .miandeng a {
+              display: inline-display;
+              width: 62px;
+              height: 16px;
+              font-size: 12px;
+              color: #999999;
+              line-height: 16px;
+              text-decoration: none;
+              margin-left: 110px; }
+        #box #zhongjian #zhongjiancenter #denglu .denglubottom2 {
+          width: 270px;
+          height: 210px;
+          padding: 0 40px;
+          background: #fff;
+          padding-top: 20px;
+          border-bottom: 1px solid #DDDDDD;
+          display: none; }
+          #box #zhongjian #zhongjiancenter #denglu .denglubottom2 .dyouxiang {
+            width: 270px;
+            height: 34px;
+            border: 1px solid #D5D5D5;
+            margin-bottom: 16px; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom2 .dyouxiang div {
+              width: 18px;
+              height: 14px;
+              padding: 10px 12px;
+              float: left; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom2 .dyouxiang .dyouxinaghao {
+              width: 200px;
+              height: 34px;
+              border: 0 none;
+              font-size: 12px;
+              line-height: 34px;
+              color: #CCCCCC; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom2 .dyouxiang .dyouxinaghao:focus {
+              outline: none !important; }
+          #box #zhongjian #zhongjiancenter #denglu .denglubottom2 .dymima {
+            width: 270px;
+            height: 34px;
+            border: 1px solid #D5D5D5; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom2 .dymima div {
+              width: 18px;
+              height: 18px;
+              padding: 8px 12px;
+              float: left; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom2 .dymima .ypass {
+              width: 200px;
+              height: 34px;
+              border: 0 none;
+              font-size: 12px;
+              line-height: 34px;
+              color: #CCCCCC; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom2 .dymima .dpass:focus {
+              outline: none !important; }
+          #box #zhongjian #zhongjiancenter #denglu .denglubottom2 .dtishixinxi {
+            height: 17px;
+            color: red;
+            margin-bottom: 6px;
+            margin-bottom: 7px; }
+          #box #zhongjian #zhongjiancenter #denglu .denglubottom2 .dbtn {
+            width: 270px;
+            height: 36px;
+            background: #E31436;
+            margin-bottom: 10px; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom2 .dbtn .d_btn {
+              width: 270px;
+              height: 36px;
+              cursor: pointer;
+              background: #E31436;
+              border: 0 none;
+              font-size: 12px;
+              color: #fff;
+              line-height: 36px; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom2 .dbtn .d_btn:focus {
+              outline: none !important; }
+          #box #zhongjian #zhongjiancenter #denglu .denglubottom2 .miandeng {
+            width: 270px;
+            height: 16px; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom2 .miandeng span {
+              display: inline-block;
+              height: 16px;
+              width: 65px;
+              font-size: 12px;
+              line-height: 16px;
+              color: #999999;
+              margin-left: 10px; }
+            #box #zhongjian #zhongjiancenter #denglu .denglubottom2 .miandeng a {
+              display: inline-display;
+              width: 62px;
+              height: 16px;
+              font-size: 12px;
+              color: #999999;
+              line-height: 16px;
+              text-decoration: none;
+              margin-left: 110px; }
+        #box #zhongjian #zhongjiancenter #denglu .denglufoot {
+          width: 270px;
+          height: 31px;
+          padding: 0px 40px;
+          padding-top: 10px;
+          background: #F8F8F8; }
+          #box #zhongjian #zhongjiancenter #denglu .denglufoot ul {
+            width: 128px;
+            height: 22px;
+            float: left; }
+            #box #zhongjian #zhongjiancenter #denglu .denglufoot ul li {
+              list-style: none;
+              width: 22px;
+              height: 22px;
+              margin-right: 10px;
+              float: left; }
+              #box #zhongjian #zhongjiancenter #denglu .denglufoot ul li a {
+                text-decoration: none; }
+          #box #zhongjian #zhongjiancenter #denglu .denglufoot .shoujiekuaijiezhuce {
+            float: left;
+            display: block;
+            margin-left: 40px;
+            padding-top: 4px;
+            color: #E31436;
+            width: 100px;
+            height: 18px;
+            font-size: 14px;
+            text-decoration: none; }
+            #box #zhongjian #zhongjiancenter #denglu .denglufoot .shoujiekuaijiezhuce i {
+              display: inline-block;
+              width: 14px;
+              height: 14px;
+              background: #E31436;
+              border-radius: 50%;
+              color: #fff;
+              font-size: 8px;
+              line-height: 14px;
+              text-align: center; }
+  #box #foot {
+    width: 100%;
+    height: 168px; }
+    #box #foot .footcenter {
+      width: 993px;
+      height: 123px;
+      margin: 0 auto;
+      padding-top: 45px; }
+      #box #foot .footcenter .foottop {
+        width: 993px;
+        height: 16px;
+        margin: 0 auto;
+        margin-bottom: 12px; }
+        #box #foot .footcenter .foottop li {
+          height: 16px;
+          padding-left: 25px;
+          padding-right: 25px;
+          border-right: 1px solid #666666;
+          float: left;
+          list-style: none; }
+          #box #foot .footcenter .foottop li a {
+            display: block;
+            height: 12px;
+            font-size: 12px;
+            color: #666666;
+            text-decoration: none; }
+      #box #foot .footcenter .footzhong {
+        width: 993px;
+        height: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 12px; }
+        #box #foot .footcenter .footzhong li {
+          float: left;
+          list-style: none;
+          height: 12px;
+          font-size: 12px;
+          color: #999999;
+          padding-left: 20px;
+          padding-right: 20px; }
+          #box #foot .footcenter .footzhong li a {
+            text-decoration: none;
+            font-size: 12px;
+            color: #666666; }
+      #box #foot .footcenter .footbottom {
+        width: 989px;
+        height: 20px;
+        padding-left: 4px;
+        margin-bottom: 8px; }
+        #box #foot .footcenter .footbottom li {
+          float: left;
+          padding-left: 12px;
+          padding-right: 12px;
+          font-size: 12px;
+          height: 16px;
+          line-height: 20px;
+          color: #999999;
+          list-style: none;
+          padding-top: 4px; }
+          #box #foot .footcenter .footbottom li a {
+            font-size: 12px;
+            color: #999999;
+            text-decoration: none; }
+      #box #foot .footcenter .jingfang {
+        display: block;
+        width: 80px;
+        height: 30px;
+        margin: 0 auto; }
+        #box #foot .footcenter .jingfang img {
+          width: 80px;
+          height: 30px; }
+
+/*# sourceMappingURL=zhuceye.css.map */
